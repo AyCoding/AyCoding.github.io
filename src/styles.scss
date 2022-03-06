@@ -24,15 +24,17 @@
     margin: 25px auto;
     border-radius: 4px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+
+    h3 {
+      font-size: 25px;
+    }
   }
 
   div {
-    //justify-content: space-between;
-    //padding: 32px;
-
     p {
       margin-top: 32px;
       line-height: 1.5;
+      letter-spacing: .8px;
     }
   }
 }
@@ -40,27 +42,14 @@
 @media screen and (min-width: 1000px) {
 
   .content {
-
     section {
       width: 50%;
-      background: #CCC;
     }
   }
 
 }
 
-//@media screen and (max-width: 400px) {
-//  .hero {
-//    h1 {
-//      font-size: 35px;
-//    }
-//    p {
-//      font-size: 20px;
-//    }
-//  }
-//}
-
-@media screen and (min-width: 0px)  and (max-width: 400px){
+@media screen and (max-width: 400px){
   .hero {
     text-align: center;
 
@@ -70,6 +59,12 @@
 
     p {
       font-size: 20px;
+    }
+  }
+
+  .content {
+    section {
+      width: 70%;
     }
   }
 }
