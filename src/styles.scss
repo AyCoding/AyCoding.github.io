@@ -19,8 +19,7 @@
   flex-direction: column;
 
   section {
-    max-width: 80%;
-    width: 50%;
+    width: 80%;
     padding: 32px;
     margin: 25px auto;
     border-radius: 4px;
@@ -34,6 +33,29 @@
     p {
       margin-top: 32px;
       line-height: 1.5;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .content {
+
+    section {
+      width: 50%;
+      background: #CCC;
+    }
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .hero {
+    h1 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 20px;
     }
   }
 }
