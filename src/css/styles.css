@@ -65,9 +65,12 @@ strong {
     background: #CCC;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .hero {
+    text-align: center;
+  }
   .hero h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .hero p {
     font-size: 20px;

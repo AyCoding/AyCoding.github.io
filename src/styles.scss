@@ -49,11 +49,25 @@
 
 }
 
-@media screen and (max-width: 400px) {
+//@media screen and (max-width: 400px) {
+//  .hero {
+//    h1 {
+//      font-size: 35px;
+//    }
+//    p {
+//      font-size: 20px;
+//    }
+//  }
+//}
+
+@media screen and (min-width: 0px)  and (max-width: 400px){
   .hero {
+    text-align: center;
+
     h1 {
-      font-size: 25px;
+      font-size: 30px;
     }
+
     p {
       font-size: 20px;
     }
