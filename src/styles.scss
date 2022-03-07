@@ -36,7 +36,26 @@
       line-height: 1.5;
       letter-spacing: .8px;
     }
+
+    a:last-child {
+      text-decoration: none;
+      color: inherit;
+      letter-spacing: .8px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  margin: auto;
 }
 
 @media screen and (min-width: 1000px) {
@@ -49,7 +68,7 @@
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .hero {
     text-align: center;
 
